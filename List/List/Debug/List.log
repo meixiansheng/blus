@@ -1,0 +1,4 @@
+﻿  List.cpp
+f:\list\list\list\list.cpp(251): warning C4101: “newHead”: 未引用的局部变量
+  List.vcxproj -> F:\List\List\Debug\List.exe
+  List.vcxproj -> F:\List\List\Debug\List.pdb (Full PDB)
