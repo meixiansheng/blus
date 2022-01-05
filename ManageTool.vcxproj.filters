@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6b3d911a-6669-44ad-baba-19c78714f91c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{873183ae-64bc-46de-af32-f7b93c16cdbb}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{90afcf4c-70a5-4c8a-b4e1-d125f2738801}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="SoUI Resouece">
+      <UniqueIdentifier>{47a8547e-1e9c-4dad-8ca2-3405b180b0eb}</UniqueIdentifier>
+      <Extensions>idx;xml;png;gif;jpg;ico;lua;bmp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\process">
+      <UniqueIdentifier>{62a3c795-35d0-44b4-80b1-6c507e7a5192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\process">
+      <UniqueIdentifier>{665f41d8-99ae-4280-9a71-a448b2672094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\middle">
+      <UniqueIdentifier>{80d0020a-1f38-482a-9d52-aaf366e8e73e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\middle">
+      <UniqueIdentifier>{788d256f-7237-4e90-b1eb-40ac44fe4014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\middle\common">
+      <UniqueIdentifier>{0a35881c-2b5b-406a-b1c3-725326e4dbab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\middle\common">
+      <UniqueIdentifier>{e94635ab-7fc5-48e1-a4d5-ec338567b54e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\middle\db">
+      <UniqueIdentifier>{b31a01e0-0147-4e74-9cfa-c9b34797bfb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\middle\db">
+      <UniqueIdentifier>{524d5d56-1d97-420c-9bc5-601de00358b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XML">
+      <UniqueIdentifier>{38e27b6a-0ae2-4f40-bb28-bd8d740a80b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XML">
+      <UniqueIdentifier>{c4935018-eabb-41e9-abaf-b395216d29ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Http">
+      <UniqueIdentifier>{446c348f-98ba-4f18-afdf-88570ee2c62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Http">
+      <UniqueIdentifier>{3f8437c4-fa65-4b7c-9a23-1dac551854e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dlg">
+      <UniqueIdentifier>{b8aeef39-6a96-4484-a624-0c419913c557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dlg">
+      <UniqueIdentifier>{a412dac2-ab01-4fa7-b784-883e855b598d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\control">
+      <UniqueIdentifier>{0f163712-a674-40aa-a852-8553fe6fa2f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\control">
+      <UniqueIdentifier>{a131b74a-9da6-4037-8e04-4ab6cfc661d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Upgrade">
+      <UniqueIdentifier>{d7a04082-d43e-43fb-99ec-51c6cbbaf565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Upgrade">
+      <UniqueIdentifier>{c3b42b4c-7a1e-4efa-9a96-53a829b1eab6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="license.txt" />
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ManageTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="process\base64.cpp">
+      <Filter>Source Files\process</Filter>
+    </ClCompile>
+    <ClCompile Include="process\base64_bsp.c">
+      <Filter>Source Files\process</Filter>
+    </ClCompile>
+    <ClCompile Include="process\des.c">
+      <Filter>Source Files\process</Filter>
+    </ClCompile>
+    <ClCompile Include="process\DiskOperationBase.cpp">
+      <Filter>Source Files\process</Filter>
+    </ClCompile>
+    <ClCompile Include="process\global.cpp">
+      <Filter>Source Files\process</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\db\dbtable_panzuinfo.cpp">
+      <Filter>Source Files\middle\db</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\db\dbtable_realtimeinfo.cpp">
+      <Filter>Source Files\middle\db</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\db\dbtable_userinfo.cpp">
+      <Filter>Source Files\middle\db</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\db\SQLiteBase.cpp">
+      <Filter>Source Files\middle\db</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\tinystr.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\tinyxml.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\tinyxmlerror.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\tinyxmlparser.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_51LJCS.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_CXWSCS.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_DCSJ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_DLFWQSZ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_FJTH.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_FPCX.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_FPCXQM.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_FPFF.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_FPHS.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_Fpkccx.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_FPKJ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_FPPLBS.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_FPPLJGXZ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_FPSC.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_FPZF.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_FPZFQXX.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_FWQCQ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_GXZSJY.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_HQDMHM.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_JQQK.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_JQXX.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_JSPBD.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_JSPRLJS.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_Jspzt.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_KBZF.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_KDZDFPFS.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_KXZPYFS.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_LJCS.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_LXFPCX.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_Outer.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_PYWLXZ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_Qycstb.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_SBHZ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_SKSBSJ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_Skxxcx.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_SSFLBMXZ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_SSLLJCS.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_SZFPJ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_UPSJ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_WJSC.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_WLCSSZ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_WLCSWH.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_WLFTPSZ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_WLSJ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_WLZDGPBZ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_WSCFPXX.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_WSCSSZ.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_XZPZXX.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_YCQK.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_YHZXX.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_ZCMDR.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_ZDZC.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_ZJCXFPXX.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_ZJCXKHSLB.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\Xml_ZXML.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="middle\xml\xmlbase.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Http\CHttp.cpp">
+      <Filter>Source Files\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="XML\Xml_XTCSWH.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="XML\Xml_PANZU_SKXXCX.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="XML\Xml_PANZU_SCAN.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="XML\Xml_PZLJCS.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\CloundBoxDlg.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgAddDevice.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgBindSP.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgCerPassword.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgPZTest.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgLinkStatus.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgJDTest.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgAddDevicePrompt.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgRenamPanGui.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgRenamPanGuiLog.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\dlg_MqttTestError.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\dlg_MqttTestSucess.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="control\SIPAddressCtrl.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgSetIp.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgCheckBindTax.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgReboot.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgRebootLog.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="control\SGifPlayer.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\SSkinGif.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgWaringLog.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="control\WaitingLoading.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\WaitingLoadingDlg.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgExitAdd.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\dlg_Bindresult.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgCerPasswordRe.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\Dlg51LJTestDone.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="XML\Xml_CXJDCS.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgSetFtpParam.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\Dlg51SetFtpDone.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgUpgrade.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="XML\Xml_UpGrade.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgUpGradeDone.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgSetIpDone.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="XML\Xml_MQTTTEST.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgAddOneDeviceDone.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgDeviceAlias.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Upgrade\CheckUpdateLib.cpp">
+      <Filter>Source Files\Upgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="Upgrade\filesmd5checkadapter.cpp">
+      <Filter>Source Files\Upgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgDeleteDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgJDTestDone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgTaxScanDone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ManageTool.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="process\base64.h">
+      <Filter>Header Files\process</Filter>
+    </ClInclude>
+    <ClInclude Include="process\base64_bsp.h">
+      <Filter>Header Files\process</Filter>
+    </ClInclude>
+    <ClInclude Include="process\des.h">
+      <Filter>Header Files\process</Filter>
+    </ClInclude>
+    <ClInclude Include="process\DiskOperationBase.h">
+      <Filter>Header Files\process</Filter>
+    </ClInclude>
+    <ClInclude Include="process\global.h">
+      <Filter>Header Files\process</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\common\definedata.h">
+      <Filter>Header Files\middle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\db\dbtable_panzuinfo.h">
+      <Filter>Header Files\middle\db</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\db\dbtable_realtimeinfo.h">
+      <Filter>Header Files\middle\db</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\db\dbtable_userinfo.h">
+      <Filter>Header Files\middle\db</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\db\SQLiteBase.h">
+      <Filter>Header Files\middle\db</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\tinystr.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\tinyxml.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_51LJCS.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_CXWSCS.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_DataDefine.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_DCSJ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_DLFWQSZ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_FJTH.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_FPCX.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_FPCXQM.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_FPFF.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_FPHS.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_Fpkccx.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_FPKJ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_FPPLBS.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_FPPLJGXZ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_FPSC.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_FPZF.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_FPZFQXX.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_FWQCQ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_GXZSJY.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_HQDMHM.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_JQQK.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_JQXX.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_JSPBD.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_JSPRLJS.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_Jspzt.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_KBZF.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_KDZDFPFS.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_KXZPYFS.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_LJCS.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_LXFPCX.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_Outer.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_PYWLXZ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_Qycstb.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_SBHZ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_SKSBSJ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_Skxxcx.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_SSFLBMXZ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_SSLLJCS.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_SZFPJ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_UPSJ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_WJSC.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_WLCSSZ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_WLCSWH.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_WLFTPSZ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_WLSJ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_WLZDGPBZ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_WSCFPXX.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_WSCSSZ.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_XZPZXX.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_YCQK.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_YHZXX.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_ZCMDR.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_ZDZC.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_ZJCXFPXX.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_ZJCXKHSLB.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\Xml_ZXML.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\xml\xmlbase.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Http\CHttp.h">
+      <Filter>Header Files\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="XML\Xml_XTCSWH.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="XML\Xml_PANZU_SKXXCX.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="XML\Xml_PANZU_SCAN.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="XML\Xml_PZLJCS.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\CloundBoxDlg.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgAddDevice.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgBindSP.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgCerPassword.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgPZTest.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgLinkStatus.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgJDTest.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgAddDevicePrompt.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\adapter.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgRenamPanGui.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgRenamPanGuiLog.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\dlg_MqttTestError.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\dlg_MqttTestSucess.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="control\SIPAddressCtrl.h">
+      <Filter>Header Files\control</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgSetIp.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgCheckBindTax.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgReboot.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgRebootLog.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgWaringLog.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="control\SGifPlayer.h">
+      <Filter>Header Files\control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\SSkinGif.h">
+      <Filter>Header Files\control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\WaitingLoading.h">
+      <Filter>Header Files\control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\WaitingLoadingDlg.h">
+      <Filter>Header Files\control</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgExitAdd.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="middle\common\strutil.h">
+      <Filter>Header Files\middle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\dlg_Bindresult.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgCerPasswordRe.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\Dlg51LJTestDone.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="XML\Xml_CXJDCS.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgSetFtpParam.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\Dlg51SetFtpDone.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgUpgrade.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="XML\Xml_GXZSJY.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="XML\Xml_UpGrade.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgUpGradeDone.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgSetIpDone.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="XML\Xml_MQTTTEST.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgAddOneDeviceDone.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgDeviceAlias.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Upgrade\CheckUpdateLib.h">
+      <Filter>Header Files\Upgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="Upgrade\datadef.h">
+      <Filter>Header Files\Upgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="Upgrade\filesmd5checkadapter.h">
+      <Filter>Header Files\Upgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="Upgrade\md5datadef.h">
+      <Filter>Header Files\Upgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgDeleteDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgJDTestDone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgTaxScanDone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\soui_res.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="uires\uidef\init.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\values\color.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\values\skin.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\values\string.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\xml\dlg_main.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="uires\image\soui.ico">
+      <Filter>SoUI Resouece</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="uires\uires.idx">
+      <Filter>SoUI Resouece</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
